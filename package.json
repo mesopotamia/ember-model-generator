@@ -1,0 +1,31 @@
+{
+  "name": "ember-model-generator",
+  "version": "1.0.0",
+  "description": "this project helps generate ember models from a swagger definition file",
+  "main": "index.ts",
+  "scripts": {
+    "start": "./node_modules/.bin/ts-node index.ts",
+    "test": "mocha --require ts-node/register --watch-extensions ts,tsx **/**.spec.ts"
+  },
+  "keywords": ["ember", "model", "ember-cli", "automation", "swagger"],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/chai": "^4.0.8",
+    "@types/lodash": "^4.14.91",
+    "@types/mocha": "^2.2.44",
+    "@types/node": "^8.0.57",
+    "@types/shelljs": "^0.7.7",
+    "chai": "^4.1.2",
+    "lodash": "^4.17.4",
+    "mocha": "^4.0.1",
+    "nodemon": "^1.12.5",
+    "shelljs": "^0.7.8",
+    "ts-node": "^3.3.0",
+    "tslint": "^5.8.0",
+    "typescript": "^2.6.2"
+  },
+  "dependencies": {
+    "tslint-config-airbnb": "^5.4.2"
+  }
+}

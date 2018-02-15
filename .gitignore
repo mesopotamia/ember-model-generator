@@ -1,0 +1,6 @@
+node_modules/
+
+.idea/
+dist/
+dummy-app/forms
+dummy-app/pet-app/
